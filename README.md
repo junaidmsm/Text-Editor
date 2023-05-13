@@ -17,13 +17,24 @@ You can access more badges and their purposes at [shields.io](https://shields.io
  _Follow these steps to properly install this application:_
   This text editor require a number of methods and store data to an IndexedDB database to be builded up.
 
-  This application will require the installation of Node.js and various npm packages.
+  This application will require the installation of Node.js and the following npm packages:
+
+  * npm install express (express.js)
+  * npm install --save-dev (Webpack)
+  * npm install webpack-dev-server --save-dev (webpack-dev-server)
+  * npm install --save-dev webpack-pwa-manifest (WebpackPwaManifest)
+  * npm install babel (Babel)
+  * npm install --save-dev css-loader (CSS-loader)
+  * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
+  * npm npm install idb (IndexedDB)
 
 
 ## Demo
 
+_Following are the commands o run the app:_
 
-  [Screenshot]()
+  * npm run build
+  * npm run start:dev  
 
 
 ## Questions
